@@ -1,0 +1,17 @@
+# Cache and outputs (data, not code)
+gcf_cache/
+gcf_output/
+gcf_risk_output/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# OS
+.DS_Store
+Thumbs.db
