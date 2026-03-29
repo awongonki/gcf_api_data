@@ -15,3 +15,10 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Dev/utility scripts
+patch_notebook.py
+probe_api.py
+
+# Claude internal
+.claude/
