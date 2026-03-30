@@ -57,15 +57,33 @@ The `Funding[]` field is the key for instrument-level risk analysis — each pro
 
 ## Portfolio Risk Framework (Section 4)
 
-Five evaluation questions grounded in quantitative risk methodology:
+Eight evaluation questions applying IMF and MDB quantitative risk methodology to the GCF portfolio:
 
-| EQ | Question | Key Metrics |
+| EQ | Question | Key Metrics | Framework Source |
+|---|---|---|---|
+| **EQ1** | How concentrated is the portfolio? | HHI, Gini, effective-N, top-1/5/10 tail exposure | IMF WP/16/158 |
+| **EQ2** | What is the instrument structure and repayment risk? | Grant/loan/equity/guarantee mix; debt share; regional debt exposure | G20 MDB CAF (2016) |
+| **EQ3** | Which projects are at risk or failing? | Cancellation rate, portfolio-at-risk USD, overdue active projects | GCF Risk Dashboard |
+| **EQ4** | How do approval-year cohorts compare? | Vintage: size, leverage, cancellation %, private %, high-risk %; instrument mix by year | MDB portfolio practice |
+| **EQ5** | Is co-financing leverage stable or driven by outliers? | Median/CoV, outlier count, crowding-in by instrument and region | IMF WP/16/158 |
+| **EQ6** | What is the contingent liability profile? | IMF four-quadrant matrix; tail-risk exposure by quadrant; fiscal multiplier alert | IMF FAD (2016) |
+| **EQ7** | How does portfolio exposure map to sovereign fiscal stress? | IMF DSA ratings (Low/Moderate/High/In Distress); credit-quality-weighted exposure | IMF DSA Framework |
+| **EQ8** | What is the co-financing correlation and shock amplification risk? | Leverage by DSA rating; co-financing withdrawal stress scenario | IMF WP/16/158; G20 MDB CAF |
+
+### Analytical Frameworks Applied
+
+This pipeline draws on the following published IMF and MDB methodologies:
+
+| Framework | Application in Pipeline | Source |
 |---|---|---|
-| **EQ1** | How concentrated is the portfolio? | HHI by country/region/entity, Gini coefficient, effective-N, top-1/5/10 tail exposure |
-| **EQ2** | What is the instrument structure and repayment risk? | Grant vs loan vs equity vs guarantee mix by sector; debt exposure by region |
-| **EQ3** | Which projects are at risk or failing? | Cancellation rate, portfolio-at-risk (USD), overdue active projects, duration overrun |
-| **EQ4** | How do approval-year cohorts compare? | Vintage analysis: size, leverage, cancellation %, private %, high-risk %; instrument mix by year |
-| **EQ5** | Is co-financing leverage stable or driven by outliers? | Median/CoV, outlier count, crowding-in by instrument and region |
+| **IMF Concentration Risk (Partial Portfolio Approach)** | EQ1: HHI, Gini, effective-N, tail exposure | [IMF WP/16/158](https://www.imf.org/external/pubs/ft/wp/2016/wp16158.pdf) |
+| **G20 MDB Capital Adequacy Framework** | EQ2: Instrument structure; preferred creditor LGD adjustment | [G20 China (2016)](http://www.g20chn.org/English/Documents/Current/201608/P020160811554323564059.pdf) |
+| **IMF Fiscal Risks — Best Practices** | EQ6: Four-quadrant contingent liability matrix; fiscal multiplier | [IMF FAD (2016)](https://www.imf.org/external/np/pp/eng/2016/050416.pdf) |
+| **IMF Contingent Liabilities (Hidden Fiscal Risk)** | EQ6: Guarantee and equity tail-risk treatment | [IMF F&D (1999)](https://www.imf.org/external/pubs/ft/fandd/1999/03/polackov.htm) |
+| **IMF Debt Sustainability Framework (LIC DSF)** | EQ7: Sovereign credit-quality-weighted exposure map | [IMF DSA LIC](https://www.imf.org/external/pubs/ft/dsa/lic.htm) |
+| **IMF Sovereign Risk DSA (MAC)** | EQ7: Market-access country risk overlay | [IMF SRDSA (2021)](https://www.imf.org/en/Publications/DSA/sovereign-risk-and-debt-sustainability-analysis-for-market-access-countries) |
+| **IMF Fiscal Risk Assessment Tool (FRAT)** | EQ7/EQ8: Portfolio-level risk prioritisation | [IMF FRAT](https://www.imf.org/en/Topics/fiscal-policies/Fiscal-Risks/Fiscal-Risks-Toolkit/Fiscal-Risks-Toolkit-FRAT) |
+| **Name Concentration Risk in MDB Portfolios** | EQ8: Co-financing correlation shock amplification | [arxiv 2311.13802 (2024)](https://arxiv.org/html/2311.13802) |
 
 ---
 
